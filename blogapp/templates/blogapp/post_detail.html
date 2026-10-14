@@ -1,0 +1,27 @@
+ {% extends "blogapp/base.html" %}
+
+    {% block title %}
+        {{ post.title }}
+    {% endblock %}
+
+    {% block content %}
+
+        <article class="post">
+
+            <h1>{{ post.title }}</h1>
+
+            <p>By {{ post.author }}</p>
+
+            <p>{{ post.created_at }}</p>
+
+            <hr>
+
+            <p>{{ post.content }}</p>
+
+            <a href="{% url 'post_list' %}">
+                Back to Blog
+            </a>
+
+        </article>
+
+    {% endblock %}

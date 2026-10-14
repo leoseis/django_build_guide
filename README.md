@@ -329,4 +329,4 @@ You have built the foundation of a Django blog:
 
 **Suggested next steps:** Add CSS styling, forms for creating posts, editing and deleting, user authentication, and automated tests.
 
-> Teaching note: This guide is a learning example. Before deploying a public blog, add appropriate permissions, input validation, security settings, and tests.
+> Teaching note written by Leonard Emelieze Backend Instructor Digital Fortress Ltd
